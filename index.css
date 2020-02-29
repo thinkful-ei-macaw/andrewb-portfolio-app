@@ -3,15 +3,19 @@
   }
   
   body {
-    font-family: "Open Sans",
-    sans-serif; 
+    font-family: 'Noto Sans TC', sans-serif; 
     font-size: 20px;
     color: #444;
     text-align: center;
     line-height: 1.5;
   }
+
+  a {
+      padding: 25px;
+      margin-bottom: 15px;
+  }
   
-  nav,
+  nav, 
   footer {
     padding: 1% 0;
     background-color: #aaa;
@@ -38,3 +42,16 @@
     background-color: #ddd;
   }
   
+  #profile-pic {
+      height: 200px;
+      width: 200px;
+  }
+
+  #project-1-snapshot {
+      height: 400px;
+      width: 500px;
+  }
+
+  #link-proj-1 {
+      margin: 30px;
+  }
