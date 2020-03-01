@@ -3,10 +3,10 @@
   }
   
   body {
-    margin: 0 auto;
+    margin: auto;
+    background-color: #FFEECC;
     font-family: 'Noto Sans TC', sans-serif; 
     font-size: 20px;
-    color: #444;
     text-align: center;
     line-height: 1.5;
   }
@@ -17,31 +17,52 @@
   
   nav {
     padding: 1% 0;
-    background-color: #aaa;
+    background-color: #03A696;
+    color: rgb(170, 100, 38);
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
-
   }
   
   header {
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 15%;
     padding: 12% 0;
+    border-bottom: 2px solid #A6ABAB;
+  }
+
+  footer {
+      border-top: 2px solid grey;
+      margin: 2em;
+      margin-left: 15%;
+      margin-right: 15%;
+      position: relative;
+  }
+
+  #placeholder-img {
+      font-size: 8px;
   }
   
   section {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #bbb;
-  }
-  
-  section:nth-child(even) {
-    background-color: #ddd;
   }
   
   #profile-pic {
+      border-radius: 25%;
       height: 200px;
       width: 200px;
+  }
+
+  #project-one {
+      background-color: rgb(179, 171, 171);
+      margin-left: 15%;
+      margin-right: 15%;
+      border: 2px solid;
+      border-radius: 5%;
+      
   }
 
   #project-1-snapshot {
@@ -56,11 +77,11 @@
   }
 
   .fa-css3-alt{
-    color: yellow;
+    color: red;
 }
 
   .fa-js {
-      color: aquamarine;
+      color: purple;
   }
 
   #j-query-icon {
@@ -68,9 +89,14 @@
     height: 15px;
   }
 
-  @media screen and (max-width: 400px) {
+  @media screen and (max-width: 425px) {
     body {
         margin: 0 auto;
+    }
+
+    #project-one {
+        margin-left: 10%;
+        margin-right: 10%;        
     }
 
     #project-1-snapshot {
@@ -78,6 +104,12 @@
         max-width: 75% ;
         height: auto ;
     }
+
+    a {
+        display: block;
+    }
+
+
 
    
   }
