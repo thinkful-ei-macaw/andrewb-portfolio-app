@@ -3,6 +3,7 @@
   }
   
   body {
+    margin: 0 auto;
     font-family: 'Noto Sans TC', sans-serif; 
     font-size: 20px;
     color: #444;
@@ -11,8 +12,7 @@
   }
 
   a {
-      padding: 25px;
-      margin-bottom: 15px;
+      margin: 25px;
   }
   
   nav, 
@@ -48,10 +48,39 @@
   }
 
   #project-1-snapshot {
-      height: 400px;
-      width: 500px;
+        margin-top: 30px;
+        width: auto ;
+        max-width: 50% ;
+        height: auto ;
   }
 
-  #link-proj-1 {
-      margin: 30px;
+  .fa-html5{
+      color: orange;
+  }
+
+  .fa-css3-alt{
+    color: yellow;
+}
+
+  .fa-js {
+      color: aquamarine;
+  }
+
+  #j-query-icon {
+    width: 50px;
+    height: 15px;
+  }
+
+  @media screen and (max-width: 400px) {
+    body {
+        margin: 0 auto;
+    }
+
+    #project-1-snapshot {
+        width: auto ;
+        max-width: 75% ;
+        height: auto ;
+    }
+
+   
   }

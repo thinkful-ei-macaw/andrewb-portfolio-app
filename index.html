@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>HTML wireframe</title>
+    <title>Andrew Burchett's Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/81c75c9601.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="index.css">
@@ -10,11 +11,11 @@
 <body>
     <nav role="navigation">
         <h2>Andrew Burchett.<br>Aspiring Software Developer</h4>
-        <a href="">About Me</a>
-        <a href="">Projects</a>
-        <a href="">Contact</a>
+        <a href="#about-me" target="_blank">About Me</a>
+        <a href="#projects" target="_blank">Projects</a>
+        <a href="#contact-info" target="_blank">Contact</a>
     </nav>
-    <main role="main">
+    <main role="main" id="about-me">
         <header role="banner">
             <img src="./images/cakedogs.jpeg" alt="placeholder" id="profile-pic">
             <h1>About Me</h1>
@@ -29,15 +30,20 @@
             <p>Outside of coding, I am passionate about fitness, soccer, dogs, and being outdoors as much as is humanly possible.</p>
         </header>
 
-        <section class="projects">
+        <section id="projects">
             <h2>Projects</h2>
             <article>
                 <h3>The LOST Quiz App</h3>
                 <p>This Quiz app (my first at THINKFUL!) is based on the hit TV series LOST.</p>
                 <p>Test your knowledge of the hit TV show & take the quiz .... if you dare!</p>
-                <p>Project Technologies & Links</p>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-css3-alt"></i>
+                <i class="fab fa-js"></i>
+                <img src="./images/jqueryicon.png" id="j-query-icon">
+                <br>
                 <a href="https://thinkful-ei-macaw.github.io/KeithAndAndrewPuzzleApp/" id="link-proj-1">The Live App!</a>
-                <a href="https://github.com/thinkful-ei-macaw/KeithAndAndrewPuzzleApp" id="link-proj-1">GitHub Repository</a><br>
+                <a href="https://github.com/thinkful-ei-macaw/KeithAndAndrewPuzzleApp" id="link-proj-1">GitHub Repository</a>
+                <br>
                 <img src="./images/quizapp.png" id="project-1-snapshot">
             </article>
             <article><!-- Project 2 --></article>
@@ -45,13 +51,13 @@
             <article><!-- Project 4 --></article>
         </section>
 
-        <section class="contact-info">
+        <section id="contact-info">
+            <h3>Thanks for visiting!</h3>
             <h3>Contact Info</h3>
-            <a href="">GitHub Img</a><br>
-            <a href="">Email Img</a><br>
-            <a href="">LinkedIn Img</a>
+            <a href="https://github.com/atwb21786" target="_blank">GitHub</a><br>
+            <a href="mailto:andrew.t.w.burchett@gmail.com" target="_blank">Email</a><br>
+            <a href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a>
         </section>
     </main>
-    <footer role="content-info">Footer</footer>
 </body>
 </html>
