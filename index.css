@@ -14,11 +14,15 @@
   a {
       margin: 25px;
   }
+
+  nav a{
+    color: #F7D7CA;
+  }
   
   nav {
     padding: 1% 0;
-    background-color: #03A696;
-    color: rgb(170, 100, 38);
+    background-color: #1700d1;
+    color: #F7D7CA;
     top: 0;
     left: 0;
     right: 0;
@@ -70,6 +74,10 @@
         width: auto ;
         max-width: 50% ;
         height: auto ;
+  }
+
+  section a{
+      color: black;
   }
 
   .fa-html5{
