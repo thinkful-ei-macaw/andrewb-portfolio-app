@@ -3,7 +3,7 @@
   }
   
   body {
-    margin: auto;
+    margin: 0 auto;
     background-color: #FFEECC;
     font-family: 'Noto Sans TC', sans-serif; 
     font-size: 20px;
@@ -12,7 +12,8 @@
   }
 
   a {
-      margin: 25px;
+    display: block;
+    margin: 25px;
   }
 
   nav a{
@@ -30,9 +31,9 @@
   }
   
   header {
-    display: inline-block;
-    margin-left: 15%;
-    margin-right: 15%;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 12% 0;
     border-bottom: 2px solid #A6ABAB;
   }
@@ -70,11 +71,11 @@
   }
 
   #project-1-snapshot {
-        margin-top: 30px;
-        width: auto ;
-        max-width: 50% ;
-        height: auto ;
+      width: auto ;
+      max-width: 75% ;
+      height: auto ;
   }
+        
 
   section a{
       color: black;
@@ -97,24 +98,22 @@
     height: 15px;
   }
 
-  @media screen and (max-width: 425px) {
-    body {
-        margin: 0 auto;
-    }
-
+  @media screen and (min-width: 520px) {
+  
     #project-one {
-        margin-left: 10%;
-        margin-right: 10%;        
+        margin-left: 15%;
+        margin-right: 15%;        
     }
 
     #project-1-snapshot {
+        margin-top: 30px;
         width: auto ;
-        max-width: 75% ;
+        max-width: 50% ;
         height: auto ;
     }
 
     a {
-        display: block;
+        display: inline-block;
     }
 
 
