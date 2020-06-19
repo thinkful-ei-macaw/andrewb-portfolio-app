@@ -12,7 +12,7 @@
   }
 
   a {
-    display: block;
+    display: inline-block;
     margin: 25px;
   }
 
@@ -45,37 +45,35 @@
       margin-right: 15%;
       position: relative;
   }
-
-  #placeholder-img {
-      font-size: 8px;
-  }
   
   section {
     min-height: 200px;
     padding: 6% 0;
   }
+
+  article {
+    margin: 50px;
+    padding: 25px;
+  }
   
   #profile-pic {
       border-radius: 25%;
-      height: 200px;
-      width: 200px;
+      height: 300px;
+      width: 300px;
   }
 
-  #project-one {
+  #project-one, #project-two, #project-three {
       background-color: rgb(179, 171, 171);
       margin-left: 15%;
       margin-right: 15%;
-      border: 2px solid;
-      border-radius: 5%;
       
   }
 
-  #project-1-snapshot {
-      width: auto ;
-      max-width: 75% ;
-      height: auto ;
-  }
-        
+  #project-snapshot{
+      margin: 15px;
+      width: 50%;
+      height: 50%;
+  }        
 
   section a{
       color: black;
@@ -98,14 +96,9 @@
     height: 15px;
   }
 
-  @media screen and (min-width: 520px) {
+  @media screen and (max-width: 520px) {
   
-    #project-one {
-        margin-left: 15%;
-        margin-right: 15%;        
-    }
-
-    #project-1-snapshot {
+    #project-snapshot {
         margin-top: 30px;
         width: auto ;
         max-width: 50% ;
@@ -113,7 +106,7 @@
     }
 
     a {
-        display: inline-block;
+        display: block;
     }
 
 
