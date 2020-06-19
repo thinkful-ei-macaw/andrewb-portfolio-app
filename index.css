@@ -91,6 +91,14 @@
       color: purple;
   }
 
+  .fa-react {
+    color: blue;
+  }
+
+  .fa-node {
+    color: green;
+  }
+
   #j-query-icon {
     width: 50px;
     height: 15px;
