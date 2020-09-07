@@ -1,11 +1,11 @@
 * {
     box-sizing: border-box;
+    font-family: acumin-pro, sans-serif;
   }
   
   body {
     margin: 0 auto;
-    background-color: #FFEECC;
-    font-family: 'Noto Sans TC', sans-serif; 
+    background-color: #f0e4ca;
     font-size: 20px;
     text-align: center;
     line-height: 1.5;
@@ -21,6 +21,9 @@
   }
   
   nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     padding: 1% 0;
     background-color: #1700d1;
     color: #F7D7CA;
@@ -31,12 +34,32 @@
   }
   
   header {
-    display: block;
-    margin-left: 10%;
-    margin-right: 10%;
-    padding: 12% 0;
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 7% 0;
     border-bottom: 2px solid #A6ABAB;
+    border-bottom-style: inset;
   }
+
+  header img {
+    margin-top: 5%;
+    margin-right: 10%;
+    border-radius: 50%;
+    height: 350px;
+    width: 350px;
+  }
+
+  header h2 {
+    font-size: 35px;
+    text-align: center;
+  }
+
+  #about-me {
+    max-width: 50%;
+    font-size: 15px;
+    text-align: left;
+  }  
 
   footer {
       border-top: 2px solid grey;
@@ -47,19 +70,48 @@
   }
   
   section {
-    min-height: 200px;
-    padding: 6% 0;
+    margin: 2px;
+  }
+
+  .project-one, .project-two, .project-three, .project-four p {
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+  }
+
+  .project-links {
+    text-decoration: none;
+    background: beige;
+    padding: 10px;
+    border: 2px groove black;
   }
 
   article {
+    display: flex;
     margin: 50px;
     padding: 25px;
   }
-  
-  #profile-pic {
-      border-radius: 25%;
-      height: 300px;
-      width: 300px;
+
+  #projects h3 {
+    text-align: center;
+  }
+
+  #projects img {
+    margin: 15px;
+    margin-right: 50px;
+    height: 40%;
+    width: 40%;
+    border-radius: 5%;
+  }
+
+
+  ul li {
+    display: inline-block;
+    list-style-type: none;
+    text-align: left;
+    font-size: 18px;
+    margin: 15px;
+    padding: 10px;
   }
 
   #project-one, #project-two, #project-three, #project-four {
@@ -67,13 +119,7 @@
       margin-left: 15%;
       margin-right: 15%;
       
-  }
-
-  #project-snapshot{
-      margin: 15px;
-      width: 50%;
-      height: 50%;
-  }        
+  }      
 
   section a{
       color: black;
