@@ -10,15 +10,6 @@
     text-align: center;
     line-height: 1.5;
   }
-
-  a {
-    display: inline-block;
-    margin: 25px;
-  }
-
-  nav a{
-    color: #F7D7CA;
-  }
   
   nav {
     display: flex;
@@ -31,6 +22,12 @@
     left: 0;
     right: 0;
     z-index: 10;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 25px;
+    color: #F7D7CA;
   }
   
   header {
@@ -57,7 +54,7 @@
 
   #about-me {
     max-width: 50%;
-    font-size: 15px;
+    font-size: 16px;
     text-align: left;
   }  
 
@@ -68,21 +65,31 @@
       margin-right: 15%;
       position: relative;
   }
+
+  footer a {
+    color: black;
+    text-decoration: none;
+    padding: 20px;
+  }
   
   section {
     margin: 2px;
   }
 
-  .project-one, .project-two, .project-three, .project-four p {
+  p {
     text-align: left;
-    font-size: 20px;
-    margin: 20px;
+    font-size: 16px;
+    padding: 10px;
+    margin: 30px;
   }
 
-  .project-links {
+  .project a {
+    color: black;
     text-decoration: none;
+    text-align: center;
     background: beige;
-    padding: 10px;
+    margin: 15px;
+    padding: 8px;
     border: 2px groove black;
   }
 
@@ -108,8 +115,9 @@
   ul li {
     display: inline-block;
     list-style-type: none;
-    text-align: left;
-    font-size: 18px;
+    text-align: center;
+    width: 20%;
+    font-size: 14px;
     margin: 15px;
     padding: 10px;
   }
@@ -119,35 +127,15 @@
       margin-left: 15%;
       margin-right: 15%;
       
-  }      
-
-  section a{
-      color: black;
   }
 
-  .fa-html5{
-      color: orange;
-  }
+  @media screen and (max-width: 1500px) {
 
-  .fa-css3-alt{
-    color: red;
-}
-
-  .fa-js {
-      color: purple;
-  }
-
-  .fa-react {
-    color: blue;
-  }
-
-  .fa-node {
-    color: green;
-  }
-
-  #j-query-icon {
-    width: 50px;
-    height: 15px;
+    article {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   }
 
   @media screen and (max-width: 520px) {
@@ -163,7 +151,4 @@
         display: block;
     }
 
-
-
-   
   }
